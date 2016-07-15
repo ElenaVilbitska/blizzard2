@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+
+<form action="new_message.php" method="post" enctype="multipart/form-data" target="_blank">
+	<input name="name" required><br>
+	<input type="e-mail" required><br>
+	<select name="question">
+		<option value="vopros">Вопрос</option>
+		<option value="predlozh">Предложение</option>
+		<option value="pretenz">Претензия</option>
+	</select><br>
+	<textarea name="message" cols="60" rows="10" required></textarea><br>
+	<input type="file" name="image" accept="image/*"><br> <!-- image/* - загрузка графических файлов-->
+	<input type="submit"><br>
+</form>
+	
+</body>
+</html>

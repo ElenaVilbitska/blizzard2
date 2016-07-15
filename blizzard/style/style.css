@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px dotted #E7E4E4;
+    font-family: Verdana, sans-serif;
+}
+a{
+    color: #05195B;
+}
+.logo {
+    padding: 15px;
+}
+.logo a img{
+    width: 150px;
+}
+ul.manu-main{
+    margin-top: 23px;
+}
+ul.manu-main li{
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+ul.manu-main li a{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+    color: #000C0F;
+    font-size: 1em;
+}
+ul.manu-main li a:hover{
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#052539+0,052539+100&1+1,0+8,0+90,1+100 */
+background: -moz-linear-gradient(top,  rgba(5,37,57,1) 0%, rgba(5,37,57,1) 1%, rgba(5,37,57,0) 8%, rgba(5,37,57,0) 90%, rgba(5,37,57,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(5,37,57,1) 0%,rgba(5,37,57,1) 1%,rgba(5,37,57,0) 8%,rgba(5,37,57,0) 90%,rgba(5,37,57,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(5,37,57,1) 0%,rgba(5,37,57,1) 1%,rgba(5,37,57,0) 8%,rgba(5,37,57,0) 90%,rgba(5,37,57,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#052539', endColorstr='#052539',GradientType=0 ); /* IE6-9 */
+
+}
+ul.manu-main li a.active{
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#052539+0,052539+100&1+1,0+8,0+90,1+100 */
+background: -moz-linear-gradient(top,  rgba(5,37,57,1) 0%, rgba(5,37,57,1) 1%, rgba(5,37,57,0) 8%, rgba(5,37,57,0) 90%, rgba(5,37,57,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(5,37,57,1) 0%,rgba(5,37,57,1) 1%,rgba(5,37,57,0) 8%,rgba(5,37,57,0) 90%,rgba(5,37,57,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(5,37,57,1) 0%,rgba(5,37,57,1) 1%,rgba(5,37,57,0) 8%,rgba(5,37,57,0) 90%,rgba(5,37,57,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#052539', endColorstr='#052539',GradientType=0 ); /* IE6-9 */
+
+}
+
+.headerimgs{
+    width:100%;
+    height: 500px;
+    background-image: url(../images/hero2.jpg);
+    background-size: cover;
+    background-position: top center;
+    padding-top: 100px;
+}
+.headerdivimgs{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/bg-page1.png);
+    color: #45A2C1;
+    padding: 20px;
+}
+.headerdivimgs h2{
+    color: #1B639A;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.headerdivimgs p{
+    line-height: 1.8em;
+    width: 60%;
+    margin-bottom: 15px;
+}
+.headerdivimgs p span{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+main{
+    padding: 15px;
+    color: #000416;
+    padding-bottom: 80px;
+}
+main img{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+main p{
+    margin-bottom: 15px;
+    line-height: 1.3em;
+}
+
+main h2{
+    color: #011E35;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+main h3{
+    color: #014881;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+/*#########  table  ####################*/
+
+/*.wikitable{
+    margin-bottom: 25px;
+    border: 1px solid #32830E;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table{
+        border-spacing: 2px;
+
+}
+
+table.wikitable > tr > th, table.wikitable > * > tr > th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td {
+    border: 1px solid #aaa;
+    padding: 0.2em 0.4em;
+}
+user agent stylesheet
+th {
+    font-weight: bold;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+Inherited from table.wikitable
+table.wikitable {
+    margin: 1em 0;
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    color: #000;
+}*/
+/*##############################################*/
+
+footer{
+    width: 1200px;
+    position: fixed;
+    bottom: 5px;
+    padding: 15px;
+    min-height: 50px;
+    line-height: 20px;
+    background-color: #021F34;
+    color: #3A99F1;
+}
+footer a{
+    color: #3A99F1;
+}
+
+
+@media screen and  (max-width: 1023px) {
+    .headerdivimgs p{
+        line-height: 1.5em;
+        width: 100%;
+    }
+    footer{
+        width: 1023px;
+    }
+}
+@media screen and  (max-width: 767px) {
+    .logo {
+        padding: 10px;
+        background-color: #063B60;
+        text-align: center;
+    }
+    .logo a img{
+        width: 150px;
+    }
+    ul.manu-main{
+        margin-top: 0;
+    }
+    ul.manu-main li{
+        list-style-type: none;
+        /*float: left;*/
+        width: 100%;
+        text-align: center;
+    }
+    ul.manu-main li a{
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-decoration: none;
+        color: #000C0F;
+        font-size: 1em;
+    }
+    .headerdivimgs{
+        width: 100%;
+        height: 300px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .headerdivimgs h2{
+        font-size: 1.3em;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .headerdivimgs p span{
+        font-weight: bold;
+    }
+    main img{
+        width: 200px;
+    }
+    footer{
+        width: 767px;
+    }
+}
+@media screen and  (max-width: 479px) {
+    p.tablet-none{
+        display: none;
+    }
+    main img{
+        width: 100%;
+    }
+    footer{
+        width: 479px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For mobile phones: */
+/*для всех классов сол-   штирина 100%*/
+[class*="col-"] {   
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
